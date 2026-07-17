@@ -17,9 +17,16 @@ public class arra_linear_search{
         }else{
             System.out.println("the element was founded in " + (index) );
 
-        }
-
-       
-       
+        }            
     }
 }
+
+/*
+Time Complexity:
+
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+
+Auxiliary Space: O(1)
+*/

@@ -14,3 +14,34 @@ public class arra_even_odd {
     }
     
 }
+
+/*
+✅ Logic
+
+✔️ Perfect.
+
+You correctly understood that:
+
+Traverse the whole array.
+
+Every time the target appears:
+
+frequency++;
+No break because we want to count all occurrences.
+✅ Time Complexity
+O(n)
+
+Correct.
+
+Reason:
+
+You visit every element exactly once.
+✅ Auxiliary Space
+O(1)
+
+Correct.
+
+Reason:
+
+Only one extra variable (frequency) is used.
+ */
