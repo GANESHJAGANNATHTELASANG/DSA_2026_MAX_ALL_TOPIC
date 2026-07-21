@@ -13,19 +13,19 @@ public class arr_Left_Rotation_by_k_time {
         }
     }
     public static void main(String[] args) {
-                int[] arr = {10, -5, 0, 8, -2, 0, 7};
-                int k = 3;
-                k = k % arr.length;
+            int[] arr = {10, -5, 0, 8, -2, 0, 7};
+            int k = 3;
+            k = k % arr.length;
 
-rotation_left_by_k(arr, 0, k - 1);
+            rotation_left_by_k(arr, 0, k - 1);
 
-rotation_left_by_k(arr, k, arr.length - 1);
+            rotation_left_by_k(arr, k, arr.length - 1);
+ 
+            rotation_left_by_k(arr,0, arr.length - 1);
 
-rotation_left_by_k(arr, 0, arr.length - 1);
-
-for (int num : arr) {
-    System.out.print(num + " ");
-}
+            for (int num : arr) {
+                 System.out.print(num + " ");
+            }
 
 
         
