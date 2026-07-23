@@ -9,7 +9,10 @@ public class arr_Running_Sum {
             range_sum[i] = arr[i] + range_sum[i-1];
         }
 
-        System.out.println("the range sum is : " + range_sum);
+        for(int i=0; i<range_sum.length; i++){
+            System.out.println(range_sum[i]);
+        }
+
     }
     
 }

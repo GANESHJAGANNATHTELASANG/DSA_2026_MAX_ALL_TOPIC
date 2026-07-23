@@ -5,6 +5,7 @@ public class arr_Unique_Element {
         int unique = arr[0];
 
         for(int i=0; i<arr.length; i++){
+            count=0;
             for(int j=0;j<arr.length; j++){
                 if(arr[i]==arr[j]){
                     count++;
@@ -15,6 +16,7 @@ public class arr_Unique_Element {
 
              if(count==1){
                 unique = arr[i];
+                System.out.println(unique);
                 break;
             } 
 
